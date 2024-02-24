@@ -12,6 +12,7 @@
   width: calc((100% - 20px * 2) / 3);
   overflow: hidden;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .item:hover {

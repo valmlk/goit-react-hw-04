@@ -1,0 +1,24 @@
+.wrapper {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 56px;
+}
+
+.loadBtn {
+  padding: 8px 12px;
+  background-color: #bf8da1;
+  color: #a3295b;
+  /* font-weight: bold; */
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.loadBtn:hover {
+  background: #a3295b;
+  color: #050801;
+  box-shadow: 0 0 5px #a3295b, 0 0 25px #a3295b, 0 0 50px #a3295b, 0 0 200px #a3295b;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}

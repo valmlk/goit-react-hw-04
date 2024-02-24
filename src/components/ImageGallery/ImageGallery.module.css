@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 16px auto 20px;
+  max-width: 1280px;
+  padding: 0 10px;
+}
+
+.item {
+  height: 267px;
+  width: calc((100% - 20px * 2) / 3);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.item:hover {
+  box-shadow: 0 0 5px #af718a, 0 0 25px #af718a;
+}
